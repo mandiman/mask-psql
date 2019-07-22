@@ -6,4 +6,4 @@ docker cp db:/anon.dump anon.dump
 
 docker exec -i db rm anon.dump
 
-#Import to staging db: docker exec -i db bash < pg_restore -U postgres -d stage anon.dump.sql
+#Import to staging db: docker exec -i db bash < pg_restore -U postgres -d stage anon.dump
